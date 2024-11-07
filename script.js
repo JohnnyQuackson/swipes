@@ -58,6 +58,7 @@ function move(event) {
     }
 };
 
+document.addEventListener('mouseout', move, false);
 
 squares.addEventListener('mousemove', drag, false);
 squares.addEventListener('touchmove', drag, false);
